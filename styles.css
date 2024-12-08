@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    width: 150px; 
+    width: 300px; /* Adjust the size as needed */
     display: block;
     margin: 0 auto;
 }
@@ -33,14 +33,21 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.nav-button:hover {
+    background-color: #0056b3;
 }
 
 main {
