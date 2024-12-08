@@ -16,9 +16,9 @@ header {
 }
 
 .logo {
-    width: 300px; /* Adjust the size as needed */
+    width: 600px; /* Adjusted size to be twice as large */
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px; /* Added bottom margin for spacing */
 }
 
 nav ul {
@@ -43,11 +43,12 @@ nav ul li {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .nav-button:hover {
     background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 main {
