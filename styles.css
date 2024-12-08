@@ -15,6 +15,12 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+    width: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
